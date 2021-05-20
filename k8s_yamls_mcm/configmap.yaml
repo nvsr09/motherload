@@ -2,7 +2,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Deployable
 metadata:
   annotations:
-    app.ibm.com/is-local-deployable: "false"
+    apps.open-cluster-management.io/is-local-deployable: "false"
   name: demo-tradr-config
 spec:
   template:
