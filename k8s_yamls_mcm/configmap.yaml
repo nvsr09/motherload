@@ -4,6 +4,7 @@ metadata:
   annotations:
     apps.open-cluster-management.io/is-local-deployable: "false"
   name: demo-tradr-config
+  namespace: demo-mcm-resources
 spec:
   template:
     apiVersion: v1
